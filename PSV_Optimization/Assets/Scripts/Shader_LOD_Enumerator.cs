@@ -8,59 +8,48 @@ public class Shader_LOD_Enumerator : MonoBehaviour
     {
         Full,
         Reduced,
-        VertexOnly
+        VertexOnly,
+        Disabled
     }
 
-    [Header("Distanze al Quadrato (Metri * Metri)")]
-    // Example: 10m and 30m become 100 and 900
-    public float[] LOD_DistanceSqr = new float[2] { 100f, 900f }; 
+    [Header("Square Distance (m * m)")]
+    // Example: 10m, 20m and 30m become 100, 400 and 900
+    public float[] LOD_DistanceSqr = new float[3] { 100f, 400f, 900f }; 
 
-    [Header("Riferimenti")]
+    [Header("References")]
     public GameObject player; 
     public bool enableShaderLOD = true;
     public bool isFoliage;
     
     // Material Slots: Managed INDIVIDUALLY for each item
-    public Material replacementMaterial; // Light Material (Vertex Lit)
-    private Material originalMaterial;   // Original heavy material
-    
-    private Renderer thisRenderer;
     public LODState shaderLOD;
+    private Material replacementMaterial; // Light Material (Vertex Lit)
+    private Material originalMaterial;   // Original heavy material
+    private Texture originalTexture;
+    private Renderer thisRenderer;
     private bool shadowCaster;
-
-    private void Awake()
+    
+    //EDIT: Registering and assignment of these variables needs to happen in Awake, because we want all these
+    //vars to be in place before any Start() method is called, so it's all done before the first frame presents
+    void Awake()
     {
-        // 1. Get the Renderer of the object
         thisRenderer = GetComponent<Renderer>();
         
-        // 2. We save the individual original material
-        originalMaterial = thisRenderer.sharedMaterial;
-        
-        // 3. Save if the object should cast shadows (On/Off)
+        if (thisRenderer == null) return;
+
+        originalMaterial = thisRenderer.material;
+        originalTexture = originalMaterial.mainTexture;
         shadowCaster = thisRenderer.shadowCastingMode == ShadowCastingMode.On;
-
-        // 4. Ci registriamo al Manager per ricevere i calcoli della distanza
-        if (LODManager.Instance != null)
-            LODManager.Instance.Register(this);
-    }
-
-    void Start()
-    {
-        _renderer = GetComponent<Renderer>();
-        if (_renderer == null) return;
-
-        _originalMaterial = _renderer.material;
-        _originalTexture = _originalMaterial.mainTexture;
-
+        
         if (player == null) player = GameObject.FindGameObjectWithTag("Player");
 
         // EDIT: Use the Manager's refShader instead of searching for it manually
         if (LODManager.Instance != null && LODManager.Instance.refShader != null)
         {
             // We create a UNIQUE instance to hold the individual PVRTC texture
-            _lodMaterial = new Material(LODManager.Instance.refShader);
-            _lodMaterial.mainTexture = _originalTexture;
-            _lodMaterial.name = "LOD_" + gameObject.name;
+            replacementMaterial = new Material(LODManager.Instance.refShader);
+            replacementMaterial.mainTexture = originalTexture;
+            replacementMaterial.name = "LOD_" + gameObject.name;
         }
 
         LODManager.Instance.Register(this);
@@ -78,8 +67,10 @@ public class Shader_LOD_Enumerator : MonoBehaviour
             newState = LODState.Full;
         else if (currentDistSqr <= LOD_DistanceSqr[1])
             newState = LODState.Reduced;
-        else
+        else if (currentDistSqr <= LOD_DistanceSqr[2])
             newState = LODState.VertexOnly;
+        else
+            newState = LODState.Disabled;
 
         // We change materials ONLY if the state is different from the current one
         if (newState != shaderLOD)
@@ -110,6 +101,12 @@ public class Shader_LOD_Enumerator : MonoBehaviour
             case LODState.VertexOnly:
                 // We put the light material created especially for this object
                 thisRenderer.sharedMaterial = replacementMaterial;
+                if (shadowCaster) thisRenderer.shadowCastingMode = ShadowCastingMode.Off;
+                break;
+            
+            case LODState.Disabled:
+                // We disable the renderer to stop issuing GC's for this object, CPU/GPU cost will drop to near-zero
+                thisRenderer.enabled = false;
                 if (shadowCaster) thisRenderer.shadowCastingMode = ShadowCastingMode.Off;
                 break;
         }
