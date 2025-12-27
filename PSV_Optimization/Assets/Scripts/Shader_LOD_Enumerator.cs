@@ -102,6 +102,7 @@ public class Shader_LOD_Enumerator : MonoBehaviour
                 thisRenderer.enabled = true;
                 // We put the light material created especially for this object
                 thisRenderer.sharedMaterial = replacementMaterial;
+                thisRenderer.sharedMaterial.mainTextureScale = originalMaterial.mainTextureScale;
                 if (shadowCaster) thisRenderer.shadowCastingMode = ShadowCastingMode.Off;
                 break;
             
