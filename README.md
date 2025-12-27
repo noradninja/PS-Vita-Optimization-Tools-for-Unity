@@ -3,6 +3,8 @@ A collection of tools to optimize various things when building for the PS Vita.
 
 CHANGELOG:
 
+27 Dec 2025
+
 Key Technical Improvements:
 1. Centralized Memory Management (Scalability)
 Global Shader Reference: Moved shader lookups from individual objects to a single refShader variable in the LODManager.
