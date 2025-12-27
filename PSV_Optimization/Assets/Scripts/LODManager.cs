@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Unity.Jobs;
@@ -9,19 +9,22 @@ public class LODManager : MonoBehaviour
     public static LODManager Instance { get; private set; }
 
     [Header("Global LOD Settings")]
-    public int tickInterval = 10;
-    public int batchSize = 50; // Number of items to process per frame
+    public int batchSize = 50; 
+    public int unloadEveryXCycles = 5; // How often should all objects complete cycles be cleared from RAM?
 
     private List<Shader_LOD_Enumerator> enumerators = new List<Shader_LOD_Enumerator>();
     private Transform playerTransform;
     private Camera mainCam;
     private float farClipSqr;
 
-    // NativeArrays to store only necessary data
     private NativeArray<Vector2> enumeratorPositions;
     private NativeArray<float> distSqrArray;
+    
+    private JobHandle lodJobHandle;
+    private bool isJobScheduled = false;
 
     private int currentBatchIndex = 0;
+    private int cycleCount = 0;
 
     private void Awake()
     {
@@ -36,56 +39,66 @@ public class LODManager : MonoBehaviour
 
     private void Start()
     {
-        if (enumerators.Count > 0)
+        if (enumerators.Count > 0 && enumerators[0] != null)
             playerTransform = enumerators[0].player.transform;
 
         farClipSqr = (mainCam.farClipPlane + 2f) * (mainCam.farClipPlane + 2f);
     }
 
-    private int unloadCycleCount = 0; // Count how many frames have passed
-
     private void Update()
     {
-        if (Time.frameCount % tickInterval != 0) return;
         if (playerTransform == null) return;
 
-        // Resize NativeArrays to match the current enumerators list if needed
-        if (enumeratorPositions.Length != enumerators.Count)
+        // 1. RESULTS RECOVERY 
+        if (isJobScheduled)
         {
-            if (enumeratorPositions.IsCreated)
-                enumeratorPositions.Dispose();
+            lodJobHandle.Complete();
+            ApplyLODResults();
+            isJobScheduled = false;
+            
+            currentBatchIndex++;
 
-            enumeratorPositions = new NativeArray<Vector2>(enumerators.Count, Allocator.Persistent);
+            // Check if we have completed a complete tour of all the objects
+            if (currentBatchIndex * batchSize >= enumerators.Count)
+            {
+                currentBatchIndex = 0;
+                cycleCount++;
 
-            if (distSqrArray.IsCreated)
-                distSqrArray.Dispose();
+                // Trigger RAM clean every X complete cycles
+                if (cycleCount >= unloadEveryXCycles)
+                {
+                    cycleCount = 0;
+                    Resources.UnloadUnusedAssets();
+                    // Debug.Log("PS Vita RAM: Cleanup of unused assets completed.");
+                }
+            }
+        }
 
-            distSqrArray = new NativeArray<float>(enumerators.Count, Allocator.Persistent);
+        // 2. PREPARING A NEW BATCH
+        if (!enumeratorPositions.IsCreated || enumeratorPositions.Length != enumerators.Count)
+        {
+            ResizeNativeArrays();
+        }
 
-            // Populate the NativeArrays with the relevant data
-            for (int i = 0; i < enumerators.Count; i++)
+        int startIndex = currentBatchIndex * batchSize;
+        int endIndex = Mathf.Min((currentBatchIndex + 1) * batchSize, enumerators.Count);
+
+        if (startIndex >= enumerators.Count) return;
+
+        for (int i = startIndex; i < endIndex; i++)
+        {
+            if (enumerators[i] != null)
             {
                 enumeratorPositions[i] = new Vector2(enumerators[i].transform.position.x, enumerators[i].transform.position.z);
             }
         }
 
-        Vector2 playerPos2D = new Vector2(
-            playerTransform.position.x,
-            playerTransform.position.z
-        );
+        Vector2 playerPos2D = new Vector2(playerTransform.position.x, playerTransform.position.z);
 
-        // Calculate the range of enumerators to process in this frame
-        int startIndex = currentBatchIndex * batchSize;
-        int endIndex = Mathf.Min((currentBatchIndex + 1) * batchSize, enumerators.Count);
-
-        if (startIndex >= enumerators.Count)
-            return;  // No more enumerators to process, we are done
-
-        // Create NativeSlice for positions and distSqrArray for this batch
         NativeSlice<Vector2> batchPositions = enumeratorPositions.Slice(startIndex, endIndex - startIndex);
         NativeSlice<float> batchDistSqrArray = distSqrArray.Slice(startIndex, endIndex - startIndex);
 
-        // Create and schedule job for distance and LOD update for this batch
+        // 3. JOB SCHEDULING
         LODJob lodJob = new LODJob
         {
             playerPos = playerPos2D,
@@ -94,71 +107,61 @@ public class LODManager : MonoBehaviour
             distSqrArray = batchDistSqrArray
         };
 
-        JobHandle jobHandle = lodJob.Schedule(batchPositions.Length, 1);
-        jobHandle.Complete();
+        lodJobHandle = lodJob.Schedule(batchPositions.Length, 1);
+        isJobScheduled = true;
+    }
 
-        // After the job completes, update the actual Shader_LOD_Enumerator objects for this batch
+    private void ApplyLODResults()
+    {
+        int startIndex = currentBatchIndex * batchSize;
+        int endIndex = Mathf.Min((currentBatchIndex + 1) * batchSize, enumerators.Count);
+
         for (int i = startIndex; i < endIndex; i++)
         {
-            enumerators[i].UpdateLOD(distSqrArray[i], farClipSqr);
-        }
-
-        // Increment the batch index for the next frame
-        currentBatchIndex++;
-
-        // Reset batch index if we've processed all enumerators
-        if (currentBatchIndex * batchSize >= enumerators.Count)
-        {
-            currentBatchIndex = 0; // Start over or adjust based on logic
-
-            // Trigger unloading only for objects with disabled renderers every 5 cycles
-            unloadCycleCount++;
-            if (unloadCycleCount >= 5)
+            if (enumerators[i] != null)
             {
-                StartCoroutine(UnloadUnusedAssetsCoroutine());
-                unloadCycleCount = 0; // Reset cycle count after unloading
+                enumerators[i].UpdateLOD(distSqrArray[i], farClipSqr);
             }
         }
     }
 
-    private IEnumerator UnloadUnusedAssetsCoroutine()
+    private void ResizeNativeArrays()
     {
-        // Optionally, you can add a small delay to ensure all framework is done before unloading.
-        yield return null; // This simply waits for the next frame.
+        if (isJobScheduled) lodJobHandle.Complete();
+        if (enumeratorPositions.IsCreated) enumeratorPositions.Dispose();
+        if (distSqrArray.IsCreated) distSqrArray.Dispose();
 
-        // Unload unused assets only for objects with disabled renderers
-        foreach (var enumerator in enumerators)
-        {
-            if (!enumerator.GetComponent<Renderer>().enabled)
-            {
-                Resources.UnloadUnusedAssets();
-                Debug.Log("Unused assets unloaded for disabled renderers.");
-                break; // Exit after unloading unused assets for the first disabled renderer
-            }
-        }
+        enumeratorPositions = new NativeArray<Vector2>(enumerators.Count, Allocator.Persistent);
+        distSqrArray = new NativeArray<float>(enumerators.Count, Allocator.Persistent);
     }
 
     public void Register(Shader_LOD_Enumerator e)
     {
         if (!enumerators.Contains(e))
+        {
+            if (isJobScheduled) { lodJobHandle.Complete(); isJobScheduled = false; }
             enumerators.Add(e);
+            ResizeNativeArrays();
+        }
     }
 
     public void Unregister(Shader_LOD_Enumerator e)
     {
-        enumerators.Remove(e);
+        if (enumerators.Contains(e))
+        {
+            if (isJobScheduled) { lodJobHandle.Complete(); isJobScheduled = false; }
+            enumerators.Remove(e);
+            ResizeNativeArrays();
+        }
     }
 
     private void OnDestroy()
     {
-        if (enumeratorPositions.IsCreated)
-            enumeratorPositions.Dispose();
-
-        if (distSqrArray.IsCreated)
-            distSqrArray.Dispose();
+        if (isJobScheduled) lodJobHandle.Complete();
+        if (enumeratorPositions.IsCreated) enumeratorPositions.Dispose();
+        if (distSqrArray.IsCreated) distSqrArray.Dispose();
     }
 
-    // Define the job struct to handle LOD updates
     struct LODJob : IJobParallelFor
     {
         public Vector2 playerPos;
@@ -170,7 +173,7 @@ public class LODManager : MonoBehaviour
         {
             Vector2 thisPos2D = positions[index];
             float distSqr = (playerPos - thisPos2D).sqrMagnitude;
-            distSqrArray[index] = distSqr;  // Store the calculated distance in the NativeArray
+            distSqrArray[index] = distSqr; 
         }
     }
 }

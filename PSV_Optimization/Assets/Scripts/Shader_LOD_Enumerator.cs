@@ -1,186 +1,119 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.Rendering;
 
 public class Shader_LOD_Enumerator : MonoBehaviour
 {
-    public GameObject player;
-    public enum LODState { Full, Reduced, VertexOnly }
+    // Define the possible states (Full = Near, Reduced = Medium, VertexOnly = Far)
+    public enum LODState
+    {
+        Full,
+        Reduced,
+        VertexOnly
+    }
 
-    [Header("LOD Settings")]
-    public float[] LOD_Distance;       // [0]=full, [1]=reduced
-    public bool   enableShaderLOD = true;
-    public bool   isFoliage;
-    public bool   rendererDisable;
-    public bool isDisabled;
-    public Material replacementMaterial;
+    [Header("Distanze al Quadrato (Metri * Metri)")]
+    // Example: 10m and 30m become 100 and 900
+    public float[] LOD_DistanceSqr = new float[2] { 100f, 900f }; 
 
-    // cached per‐instance
+    [Header("Riferimenti")]
+    public GameObject player; 
+    public bool enableShaderLOD = true;
+    public bool isFoliage;
+    
+    // Material Slots: Managed INDIVIDUALLY for each item
+    public Material replacementMaterial; // Light Material (Vertex Lit)
+    private Material originalMaterial;   // Original heavy material
+    
     private Renderer thisRenderer;
-    private Material originalMaterial;
-    private Texture mainTex;
-    private Texture moarTexture;
-    private bool     shadowCaster;
-
-    private Mesh originalMesh;
-    private Mesh replacementMesh;  // Optional: If you need a replacement mesh
-    private MeshFilter meshFilter;
-
-    [HideInInspector] public LODState shaderLOD;
-
-    // Flag to track if resources are loaded
-    private bool isResourcesLoaded = false;
+    public LODState shaderLOD;
+    private bool shadowCaster;
 
     private void Awake()
     {
+        // 1. Get the Renderer of the object
         thisRenderer = GetComponent<Renderer>();
-        meshFilter = GetComponent<MeshFilter>(); // Cache the MeshFilter component
-
-        shadowCaster = thisRenderer.shadowCastingMode == ShadowCastingMode.On;
+        
+        // 2. We save the individual original material
         originalMaterial = thisRenderer.sharedMaterial;
+        
+        // 3. Save if the object should cast shadows (On/Off)
+        shadowCaster = thisRenderer.shadowCastingMode == ShadowCastingMode.On;
 
-        // Create replacement material
-        replacementMaterial = new Material(Shader.Find("Vita/Standard Mobile VertexLit"));
-        replacementMaterial.SetFloat("_Metallic", originalMaterial.GetFloat("_Metallic"));
-        replacementMaterial.SetFloat("_Roughness", originalMaterial.GetFloat("_Glossiness"));
-        replacementMaterial.SetFloat("_AlphaOn", 0); // Disable alpha clip
-        replacementMaterial.SetFloat("_LeavesOn", 0); // Disable movement at distance
-
-        // Get textures for replacement material
-        mainTex = originalMaterial.mainTexture;
-        moarTexture = originalMaterial.GetTexture("_MetallicGlossMap");
-
-        // Apply textures to replacement material
-        replacementMaterial.mainTexture = mainTex;
-        replacementMaterial.SetTexture("_MetallicGlossMap", moarTexture);
-
-        // Store original mesh
-        if (meshFilter != null)
-        {
-            originalMesh = meshFilter.sharedMesh;
-            // Optionally create a replacement mesh (e.g., lower-quality version of the mesh)
-            replacementMesh = new Mesh();  // Or assign an actual mesh as needed
-        }
+        // 4. Ci registriamo al Manager per ricevere i calcoli della distanza
+        if (LODManager.Instance != null)
+            LODManager.Instance.Register(this);
     }
 
     private void Start()
     {
-        // Register with the manager
-        LODManager.Instance.Register(this);
+        // INDIVIDUAL ASSIGNMENT: If you haven't placed a material in the slot, we'll create it now.
+        if (replacementMaterial == null)
+        {
+            // We create a NEW unique material for this specific item
+            if (isFoliage)
+                replacementMaterial = new Material(Shader.Find("Vita/Lightmapped Vertlit Wind Foliage"));
+            else
+                replacementMaterial = new Material(Shader.Find("Vita/Vertex_Lightmap"));
+            
+            // TEXTURE COPY: Each object retains its specific texture
+            if (originalMaterial != null)
+                replacementMaterial.mainTexture = originalMaterial.mainTexture;
+        }
     }
 
-    // Called by LODManager each tick.
-    public void UpdateLOD(float distSqr, float farClipSqr)
+    // This function is called from the General (LODManager)
+    public void UpdateLOD(float currentDistSqr, float farClipSqr)
     {
         if (!enableShaderLOD) return;
 
-        // Check if the Renderer is null (destroyed or not assigned)
-        if (thisRenderer == null)
+        LODState newState;
+
+        // Threshold calculation (without square roots, very fast)
+        if (currentDistSqr <= LOD_DistanceSqr[0])
+            newState = LODState.Full;
+        else if (currentDistSqr <= LOD_DistanceSqr[1])
+            newState = LODState.Reduced;
+        else
+            newState = LODState.VertexOnly;
+
+        // We change materials ONLY if the state is different from the current one
+        if (newState != shaderLOD)
         {
-            Debug.LogWarning("Renderer is missing or destroyed. Skipping LOD update.");
-            return;
+            shaderLOD = newState;
+            ApplySettings();
         }
+    }
 
-        float fullSqr = LOD_Distance[0] * LOD_Distance[0];
-        float reducedSqr = LOD_Distance[1] * LOD_Distance[1];
-
-        // Pick state
-        if (distSqr <= fullSqr) shaderLOD = LODState.Full;
-        else if (distSqr <= reducedSqr) shaderLOD = LODState.Reduced;
-        else shaderLOD = LODState.VertexOnly;
-
+    private void ApplySettings()
+    {
         switch (shaderLOD)
         {
             case LODState.Full:
-                if (shadowCaster && thisRenderer.shadowCastingMode != ShadowCastingMode.On)
-                    thisRenderer.shadowCastingMode = ShadowCastingMode.On;
+                // We put back the original individual material
+                thisRenderer.sharedMaterial = originalMaterial;
+                thisRenderer.sharedMaterial.EnableKeyword("_NORMALMAP");
+                if (shadowCaster) thisRenderer.shadowCastingMode = ShadowCastingMode.On;
                 break;
 
             case LODState.Reduced:
-                thisRenderer.enabled = true;
+                // We keep the original but turn off the Normal Maps to lighten the GPU
                 thisRenderer.sharedMaterial = originalMaterial;
-                if (shadowCaster && thisRenderer.shadowCastingMode != ShadowCastingMode.Off)
-                    thisRenderer.shadowCastingMode = ShadowCastingMode.Off;
+                thisRenderer.sharedMaterial.DisableKeyword("_NORMALMAP");
+                if (shadowCaster) thisRenderer.shadowCastingMode = ShadowCastingMode.Off;
                 break;
 
             case LODState.VertexOnly:
+                // We put the light material created especially for this object
                 thisRenderer.sharedMaterial = replacementMaterial;
-                if (shadowCaster && thisRenderer.shadowCastingMode != ShadowCastingMode.Off)
-                    thisRenderer.shadowCastingMode = ShadowCastingMode.Off;
-
-                if (rendererDisable)
-                    thisRenderer.enabled = distSqr < farClipSqr;
-                    isDisabled = !thisRenderer.enabled;
-                    EnableRenderer(!isDisabled);
+                if (shadowCaster) thisRenderer.shadowCastingMode = ShadowCastingMode.Off;
                 break;
         }
     }
 
-    // Manually load the textures and mesh when enabling the renderer
-    public void EnableRenderer(bool enable)
+    private void OnDestroy()
     {
-        if (enable)
-        {
-            if (!isResourcesLoaded)
-            {
-                LoadTextures();
-                LoadMesh();
-                isResourcesLoaded = true;
-            }
-        }
-        else
-        {
-            if (isResourcesLoaded)
-            {
-                UnloadTextures();
-                UnloadMesh();
-                isResourcesLoaded = false;
-            }
-        }
-    }
-
-    // Load textures when renderer is enabled
-    private void LoadTextures()
-    {
-        // Assign textures back to the material
-        if (thisRenderer != null && thisRenderer.sharedMaterial != null)
-        {
-            thisRenderer.sharedMaterial.mainTexture = mainTex;
-            thisRenderer.sharedMaterial.SetTexture("_MetallicGlossMap", moarTexture);
-        }
-
-        Debug.Log("Textures Loaded");
-    }
-
-    // Unload textures when renderer is disabled
-    private void UnloadTextures()
-    {
-        // Unassign textures to free memory
-        if (thisRenderer != null && thisRenderer.sharedMaterial != null)
-        {
-            thisRenderer.sharedMaterial.mainTexture = null;
-            thisRenderer.sharedMaterial.SetTexture("_MetallicGlossMap", null);
-        }
-
-        Debug.Log("Textures Unloaded");
-    }
-
-    // Load the mesh when renderer is enabled
-    private void LoadMesh()
-    {
-        if (meshFilter != null && originalMesh != null)
-        {
-            meshFilter.sharedMesh = originalMesh;
-        }
-        Debug.Log("Mesh Loaded");
-    }
-
-    // Unload the mesh when renderer is disabled
-    private void UnloadMesh()
-    {
-        if (meshFilter != null)
-        {
-            meshFilter.sharedMesh = null; // Unassign the mesh to free memory
-        }
-        Debug.Log("Mesh Unloaded");
+        // When the item is removed, it is deleted from the Manager's list.
+        if (LODManager.Instance != null)
+            LODManager.Instance.Unregister(this);
     }
 }
