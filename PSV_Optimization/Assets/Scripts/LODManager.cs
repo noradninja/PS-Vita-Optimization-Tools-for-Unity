@@ -9,8 +9,9 @@ public class LODManager : MonoBehaviour
     public static LODManager Instance { get; private set; }
 
     [Header("Global LOD Settings")]
+    public Shader refShader; // ADDED: Drag shader here for distant objects
     public int batchSize = 50; 
-    public int unloadEveryXCycles = 5; // How often should all objects complete cycles be cleared from RAM?
+    public int unloadEveryXCycles = 5;
 
     private List<Shader_LOD_Enumerator> enumerators = new List<Shader_LOD_Enumerator>();
     private Transform playerTransform;

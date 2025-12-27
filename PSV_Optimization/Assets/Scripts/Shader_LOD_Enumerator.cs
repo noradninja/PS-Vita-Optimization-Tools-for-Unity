@@ -44,21 +44,26 @@ public class Shader_LOD_Enumerator : MonoBehaviour
             LODManager.Instance.Register(this);
     }
 
-    private void Start()
+    void Start()
     {
-        // INDIVIDUAL ASSIGNMENT: If you haven't placed a material in the slot, we'll create it now.
-        if (replacementMaterial == null)
+        _renderer = GetComponent<Renderer>();
+        if (_renderer == null) return;
+
+        _originalMaterial = _renderer.material;
+        _originalTexture = _originalMaterial.mainTexture;
+
+        if (player == null) player = GameObject.FindGameObjectWithTag("Player");
+
+        // EDIT: Use the Manager's refShader instead of searching for it manually
+        if (LODManager.Instance != null && LODManager.Instance.refShader != null)
         {
-            // We create a NEW unique material for this specific item
-            if (isFoliage)
-                replacementMaterial = new Material(Shader.Find("Vita/Lightmapped Vertlit Wind Foliage"));
-            else
-                replacementMaterial = new Material(Shader.Find("Vita/Vertex_Lightmap"));
-            
-            // TEXTURE COPY: Each object retains its specific texture
-            if (originalMaterial != null)
-                replacementMaterial.mainTexture = originalMaterial.mainTexture;
+            // We create a UNIQUE instance to hold the individual PVRTC texture
+            _lodMaterial = new Material(LODManager.Instance.refShader);
+            _lodMaterial.mainTexture = _originalTexture;
+            _lodMaterial.name = "LOD_" + gameObject.name;
         }
+
+        LODManager.Instance.Register(this);
     }
 
     // This function is called from the General (LODManager)
