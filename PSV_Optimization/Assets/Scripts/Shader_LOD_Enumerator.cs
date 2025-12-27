@@ -29,9 +29,7 @@ public class Shader_LOD_Enumerator : MonoBehaviour
     private Renderer thisRenderer;
     private bool shadowCaster;
     
-    //EDIT: Registering and assignment of these variables needs to happen in Awake, because we want all these
-    //vars to be in place before any Start() method is called, so it's all done before the first frame presents
-    void Awake()
+    void Start()
     {
         thisRenderer = GetComponent<Renderer>();
         
@@ -86,12 +84,14 @@ public class Shader_LOD_Enumerator : MonoBehaviour
         {
             case LODState.Full:
                 // We put back the original individual material
+                thisRenderer.enabled = true;
                 thisRenderer.sharedMaterial = originalMaterial;
                 thisRenderer.sharedMaterial.EnableKeyword("_NORMALMAP");
                 if (shadowCaster) thisRenderer.shadowCastingMode = ShadowCastingMode.On;
                 break;
 
             case LODState.Reduced:
+                thisRenderer.enabled = true;
                 // We keep the original but turn off the Normal Maps to lighten the GPU
                 thisRenderer.sharedMaterial = originalMaterial;
                 thisRenderer.sharedMaterial.DisableKeyword("_NORMALMAP");
@@ -99,6 +99,7 @@ public class Shader_LOD_Enumerator : MonoBehaviour
                 break;
 
             case LODState.VertexOnly:
+                thisRenderer.enabled = true;
                 // We put the light material created especially for this object
                 thisRenderer.sharedMaterial = replacementMaterial;
                 if (shadowCaster) thisRenderer.shadowCastingMode = ShadowCastingMode.Off;

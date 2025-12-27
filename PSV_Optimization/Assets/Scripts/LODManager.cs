@@ -69,7 +69,7 @@ public class LODManager : MonoBehaviour
                 if (cycleCount >= unloadEveryXCycles)
                 {
                     cycleCount = 0;
-                    Resources.UnloadUnusedAssets();
+                    //Resources.UnloadUnusedAssets();
                     // Debug.Log("PS Vita RAM: Cleanup of unused assets completed.");
                 }
             }
