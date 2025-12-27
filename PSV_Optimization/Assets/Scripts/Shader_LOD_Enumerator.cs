@@ -46,11 +46,11 @@ public class Shader_LOD_Enumerator : MonoBehaviour
 
     void Start()
     {
-        _renderer = GetComponent<Renderer>();
+        Renderer _renderer = GetComponent<Renderer>();
         if (_renderer == null) return;
 
-        _originalMaterial = _renderer.material;
-        _originalTexture = _originalMaterial.mainTexture;
+        Material _originalMaterial = _renderer.material;
+        Texture _originalTexture = _originalMaterial.mainTexture;
 
         if (player == null) player = GameObject.FindGameObjectWithTag("Player");
 
@@ -58,7 +58,7 @@ public class Shader_LOD_Enumerator : MonoBehaviour
         if (LODManager.Instance != null && LODManager.Instance.refShader != null)
         {
             // We create a UNIQUE instance to hold the individual PVRTC texture
-            _lodMaterial = new Material(LODManager.Instance.refShader);
+            Material _lodMaterial = new Material(LODManager.Instance.refShader);
             _lodMaterial.mainTexture = _originalTexture;
             _lodMaterial.name = "LOD_" + gameObject.name;
         }
