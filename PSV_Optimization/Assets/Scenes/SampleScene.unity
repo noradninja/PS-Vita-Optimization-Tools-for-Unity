@@ -144,8 +144,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -249,8 +249,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -354,8 +354,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -459,8 +459,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -564,8 +564,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -669,8 +669,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -774,8 +774,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -879,8 +879,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -984,8 +984,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -1089,8 +1089,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -1194,8 +1194,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -1299,8 +1299,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -1404,8 +1404,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -1509,8 +1509,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -1614,8 +1614,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -1719,8 +1719,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -1824,8 +1824,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -1929,8 +1929,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -2034,8 +2034,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -2139,8 +2139,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -2244,8 +2244,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -2349,8 +2349,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -2454,8 +2454,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -2559,8 +2559,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -2664,8 +2664,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -2769,8 +2769,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 49
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -2874,8 +2874,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -2979,8 +2979,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -3084,8 +3084,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -3189,8 +3189,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -3294,8 +3294,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -3399,8 +3399,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -3504,8 +3504,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -3609,8 +3609,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -3714,8 +3714,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -3819,8 +3819,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -3990,8 +3990,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -4095,8 +4095,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -4200,8 +4200,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -4305,8 +4305,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -4410,8 +4410,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -4515,8 +4515,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -4620,8 +4620,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -4725,8 +4725,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -4830,8 +4830,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -4935,8 +4935,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -5040,8 +5040,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -5145,8 +5145,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -5250,8 +5250,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -5355,8 +5355,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -5460,8 +5460,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -5565,8 +5565,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -5670,8 +5670,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -5775,8 +5775,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -5880,8 +5880,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -5985,8 +5985,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -6090,8 +6090,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -6195,8 +6195,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -6300,8 +6300,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -6405,8 +6405,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -6510,8 +6510,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -6615,8 +6615,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -6720,8 +6720,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -6825,8 +6825,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -6930,8 +6930,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -7035,8 +7035,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -7140,8 +7140,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -7245,8 +7245,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -7350,8 +7350,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -7455,8 +7455,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -7560,8 +7560,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -7665,8 +7665,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -7770,8 +7770,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -7875,8 +7875,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -7980,8 +7980,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -8085,8 +8085,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -8190,8 +8190,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -8295,8 +8295,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -8400,8 +8400,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -8505,8 +8505,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -8610,8 +8610,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -8715,8 +8715,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -8820,8 +8820,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -8925,8 +8925,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -9030,8 +9030,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -9135,8 +9135,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -9240,8 +9240,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -9345,8 +9345,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -9450,8 +9450,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -9555,8 +9555,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -9660,8 +9660,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -9765,8 +9765,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -9870,8 +9870,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -9975,8 +9975,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -10080,8 +10080,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -10185,8 +10185,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -10290,8 +10290,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -10395,8 +10395,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -10500,8 +10500,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -10605,8 +10605,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -10710,8 +10710,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -10815,8 +10815,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -10920,8 +10920,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -11025,8 +11025,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -11130,8 +11130,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -11235,8 +11235,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -11340,8 +11340,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -11445,8 +11445,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -11550,8 +11550,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -11655,8 +11655,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -11760,8 +11760,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -11865,8 +11865,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -11970,8 +11970,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -12075,8 +12075,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -12180,8 +12180,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -12285,8 +12285,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -12390,8 +12390,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -12495,8 +12495,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -12600,8 +12600,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -12782,8 +12782,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -12887,8 +12887,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -12992,8 +12992,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -13097,8 +13097,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -13202,8 +13202,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -13307,8 +13307,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -13412,8 +13412,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -13517,8 +13517,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -13622,8 +13622,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -13727,8 +13727,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -13832,8 +13832,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -13937,8 +13937,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -14042,8 +14042,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -14147,8 +14147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -14252,8 +14252,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -14357,8 +14357,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -14462,8 +14462,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -14567,8 +14567,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -14672,8 +14672,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -14777,8 +14777,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -14882,8 +14882,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -14987,8 +14987,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -15092,8 +15092,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -15197,8 +15197,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -15302,8 +15302,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -15407,8 +15407,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -15512,8 +15512,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -15617,8 +15617,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -15722,8 +15722,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -15827,8 +15827,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -15932,8 +15932,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -16037,8 +16037,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -16142,8 +16142,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -16247,8 +16247,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -16352,8 +16352,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -16457,8 +16457,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -16562,8 +16562,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -16667,8 +16667,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -16772,8 +16772,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -16877,8 +16877,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -16982,8 +16982,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -17087,8 +17087,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -17192,8 +17192,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -17297,8 +17297,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -17402,8 +17402,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -17507,8 +17507,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -17612,8 +17612,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -17717,8 +17717,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -17822,8 +17822,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -17927,8 +17927,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -18032,8 +18032,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -18137,8 +18137,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -18242,8 +18242,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -18347,8 +18347,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -18452,8 +18452,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -18557,8 +18557,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -18662,8 +18662,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -18767,8 +18767,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -18872,8 +18872,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -18977,8 +18977,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -19082,8 +19082,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -19187,8 +19187,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -19292,8 +19292,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -19397,8 +19397,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -19502,8 +19502,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -19607,8 +19607,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -19712,8 +19712,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -19817,8 +19817,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -19922,8 +19922,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -20027,8 +20027,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -20132,8 +20132,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -20237,8 +20237,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -20342,8 +20342,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -20447,8 +20447,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -20552,8 +20552,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -20657,8 +20657,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -20762,8 +20762,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -20867,8 +20867,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -20972,8 +20972,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -21077,8 +21077,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -21182,8 +21182,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -21287,8 +21287,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -21392,8 +21392,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -21497,8 +21497,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -21602,8 +21602,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -21707,8 +21707,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -21812,8 +21812,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -21917,8 +21917,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -22022,8 +22022,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -22127,8 +22127,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -22232,8 +22232,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -22337,8 +22337,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -22442,8 +22442,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -22547,8 +22547,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -22652,8 +22652,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -22757,8 +22757,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -22862,8 +22862,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -22967,8 +22967,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -23072,8 +23072,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -23177,8 +23177,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -23282,8 +23282,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -23387,8 +23387,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -23492,8 +23492,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -23597,8 +23597,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -23702,8 +23702,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -23807,8 +23807,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -23912,8 +23912,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -24017,8 +24017,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -24122,8 +24122,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -24227,8 +24227,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -24332,8 +24332,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -24437,8 +24437,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -24542,8 +24542,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -24647,8 +24647,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -24752,8 +24752,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -24857,8 +24857,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -24962,8 +24962,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -25067,8 +25067,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -25172,8 +25172,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -25277,8 +25277,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -25382,8 +25382,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -25487,8 +25487,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -25592,8 +25592,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -25697,8 +25697,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -25802,8 +25802,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -25907,8 +25907,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -26012,8 +26012,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -26117,8 +26117,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -26222,8 +26222,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -26327,8 +26327,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -26432,8 +26432,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -26537,8 +26537,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -26642,8 +26642,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -26747,8 +26747,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -26852,8 +26852,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -26957,8 +26957,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -27062,8 +27062,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -27167,8 +27167,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -27272,8 +27272,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -27377,8 +27377,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -27482,8 +27482,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -27587,8 +27587,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -27692,8 +27692,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -27797,8 +27797,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -27902,8 +27902,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -28007,8 +28007,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -28112,8 +28112,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -28217,8 +28217,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -28322,8 +28322,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -28427,8 +28427,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -28532,8 +28532,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -28637,8 +28637,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -28742,8 +28742,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -28847,8 +28847,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -28952,8 +28952,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -29057,8 +29057,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -29162,8 +29162,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -29267,8 +29267,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -29372,8 +29372,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -29477,8 +29477,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -29582,8 +29582,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -29687,8 +29687,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -29792,8 +29792,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -29897,8 +29897,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -30002,8 +30002,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -30107,8 +30107,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -30212,8 +30212,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -30317,8 +30317,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -30422,8 +30422,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -30527,8 +30527,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -30632,8 +30632,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -30737,8 +30737,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -30842,8 +30842,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -30947,8 +30947,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -31052,8 +31052,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -31157,8 +31157,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -31262,8 +31262,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -31367,8 +31367,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -31472,8 +31472,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -31577,8 +31577,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -31682,8 +31682,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -31787,8 +31787,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -31892,8 +31892,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -31997,8 +31997,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -32102,8 +32102,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -32207,8 +32207,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -32312,8 +32312,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -32417,8 +32417,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -32522,8 +32522,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -32627,8 +32627,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -32732,8 +32732,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -32837,8 +32837,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -32942,8 +32942,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -33047,8 +33047,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -33152,8 +33152,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -33257,8 +33257,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -33362,8 +33362,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -33467,8 +33467,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -33572,8 +33572,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -33677,8 +33677,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -33782,8 +33782,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -33887,8 +33887,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -33992,8 +33992,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -34097,8 +34097,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -34202,8 +34202,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -34839,8 +34839,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -34944,8 +34944,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -35049,8 +35049,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -35154,8 +35154,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -35259,8 +35259,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -35364,8 +35364,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -35469,8 +35469,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -35574,8 +35574,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -35679,8 +35679,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -35784,8 +35784,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -35889,8 +35889,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -35994,8 +35994,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -36099,8 +36099,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -36204,8 +36204,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -36309,8 +36309,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -36414,8 +36414,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -36519,8 +36519,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -36624,8 +36624,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -36729,8 +36729,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -36834,8 +36834,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -36939,8 +36939,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -37044,8 +37044,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -37149,8 +37149,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -37254,8 +37254,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -37359,8 +37359,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -37464,8 +37464,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -37569,8 +37569,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -37674,8 +37674,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -37779,8 +37779,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -37884,8 +37884,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -37989,8 +37989,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -38094,8 +38094,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -38199,8 +38199,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -38304,8 +38304,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -38409,8 +38409,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -38514,8 +38514,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -38619,8 +38619,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -38724,8 +38724,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -38829,8 +38829,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -38934,8 +38934,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -39039,8 +39039,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -39144,8 +39144,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -39249,8 +39249,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -39354,8 +39354,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -39459,8 +39459,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -39564,8 +39564,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -39669,8 +39669,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -39774,8 +39774,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -39879,8 +39879,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -39984,8 +39984,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -40089,8 +40089,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -40194,8 +40194,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -40299,8 +40299,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -40404,8 +40404,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -40509,8 +40509,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -40614,8 +40614,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -40719,8 +40719,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -40824,8 +40824,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -40929,8 +40929,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -41034,8 +41034,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -41139,8 +41139,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -41244,8 +41244,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -41349,8 +41349,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -41454,8 +41454,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -41559,8 +41559,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -41664,8 +41664,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -41769,8 +41769,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -41874,8 +41874,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -41976,7 +41976,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   refShader: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
-  batchSize: 10
+  batchSize: 25
   unloadEveryXCycles: 5
 --- !u!4 &1733794249
 Transform:
@@ -42022,8 +42022,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -42127,8 +42127,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -42232,8 +42232,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -42337,8 +42337,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -42442,8 +42442,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -42547,8 +42547,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -42652,8 +42652,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -42757,8 +42757,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -42862,8 +42862,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -42967,8 +42967,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -43072,8 +43072,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -43177,8 +43177,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -43282,8 +43282,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -43387,8 +43387,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -43492,8 +43492,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -43597,8 +43597,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -43702,8 +43702,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -43807,8 +43807,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -43912,8 +43912,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -44017,8 +44017,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -44122,8 +44122,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -44227,8 +44227,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -44332,8 +44332,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -44437,8 +44437,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -44542,8 +44542,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -44647,8 +44647,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -44752,8 +44752,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -44857,8 +44857,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -44962,8 +44962,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -45067,8 +45067,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -45172,8 +45172,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -45277,8 +45277,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -45382,8 +45382,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -45487,8 +45487,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -45592,8 +45592,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -45697,8 +45697,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -45802,8 +45802,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -45907,8 +45907,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -46012,8 +46012,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -46117,8 +46117,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -46222,8 +46222,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -46327,8 +46327,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -46432,8 +46432,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -46537,8 +46537,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -46642,8 +46642,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -46747,8 +46747,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -46852,8 +46852,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -46957,8 +46957,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -47062,8 +47062,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -47167,8 +47167,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -47272,8 +47272,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -47377,8 +47377,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -47482,8 +47482,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -47587,8 +47587,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -47692,8 +47692,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -47797,8 +47797,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -47902,8 +47902,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -48007,8 +48007,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -48112,8 +48112,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -48217,8 +48217,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -48322,8 +48322,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -48427,8 +48427,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -48532,8 +48532,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -48637,8 +48637,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -48742,8 +48742,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -48847,8 +48847,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -48952,8 +48952,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -49057,8 +49057,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -49162,8 +49162,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -49267,8 +49267,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -49372,8 +49372,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -49477,8 +49477,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -49582,8 +49582,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -49687,8 +49687,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -49792,8 +49792,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -49897,8 +49897,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -50002,8 +50002,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -50107,8 +50107,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -50212,8 +50212,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -50317,8 +50317,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -50422,8 +50422,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -50527,8 +50527,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -50632,8 +50632,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -50737,8 +50737,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -50842,8 +50842,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -50947,8 +50947,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -51052,8 +51052,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -51157,8 +51157,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -51262,8 +51262,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -51367,8 +51367,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -51472,8 +51472,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -51577,8 +51577,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -51682,8 +51682,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -51787,8 +51787,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -51892,8 +51892,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -51997,8 +51997,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -52102,8 +52102,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -52207,8 +52207,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -52312,8 +52312,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -52417,8 +52417,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -52522,8 +52522,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -52627,8 +52627,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -52732,8 +52732,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -52837,8 +52837,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -52942,8 +52942,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -53047,8 +53047,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -53152,8 +53152,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -53257,8 +53257,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -53362,8 +53362,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -53467,8 +53467,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -53572,8 +53572,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
@@ -53677,8 +53677,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LOD_DistanceSqr:
-  - 121
-  - 225
+  - 81
+  - 169
   - 400
   player: {fileID: 534669902}
   enableShaderLOD: 1
