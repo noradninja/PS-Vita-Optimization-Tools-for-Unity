@@ -3,7 +3,6 @@ using UnityEngine.Rendering;
 
 public class Shader_LOD_Enumerator : MonoBehaviour
 {
-    // Define the possible states (Full = Near, Reduced = Medium, VertexOnly = Far)
     public enum LODState
     {
         Full,
@@ -12,65 +11,137 @@ public class Shader_LOD_Enumerator : MonoBehaviour
         Disabled
     }
 
-    [Header("Square Distance (m * m)")]
-    // Example: 10m, 20m and 30m become 100, 400 and 900
-    public float[] LOD_DistanceSqr = new float[3] { 100f, 400f, 900f }; 
-
     [Header("References")]
-    public GameObject player; 
+    public GameObject player;
     public bool enableShaderLOD = true;
     public bool isFoliage;
-    
-    // Material Slots: Managed INDIVIDUALLY for each item
+
     public LODState shaderLOD;
-    private Material replacementMaterial; // Light Material (Vertex Lit)
-    private Material originalMaterial;   // Original heavy material
+
+    private Material replacementMaterial;       // Shared cached (VertexOnly)
+    private Material originalMaterial;          // Shared original
+    private Material reducedOriginalMaterial;   // Shared cached clone (Reduced)
     private Texture originalTexture;
+    private Texture originalSecondTexture;
     private Renderer thisRenderer;
     private bool shadowCaster;
-    
+
+    // Cached per-object thresholds (SQUARED) after size adjustment
+    private float tFullSqr;
+    private float tReducedSqr;
+    private float tVertexOnlySqr;
+
     void Start()
     {
         thisRenderer = GetComponent<Renderer>();
-        
         if (thisRenderer == null) return;
 
-        originalMaterial = thisRenderer.material;
-        originalTexture = originalMaterial.mainTexture;
+        // IMPORTANT: sharedMaterial does NOT create a per-object instance
+        originalMaterial = thisRenderer.sharedMaterial;
+
+        originalTexture = originalMaterial != null ? originalMaterial.mainTexture : null;
+        originalSecondTexture = originalMaterial != null ? originalMaterial.GetTexture("_MetallicGlossMap") : null;
+
         shadowCaster = thisRenderer.shadowCastingMode == ShadowCastingMode.On;
-        
+
         if (player == null) player = GameObject.FindGameObjectWithTag("Player");
 
-        // EDIT: Use the Manager's refShader instead of searching for it manually
-        if (LODManager.Instance != null && LODManager.Instance.refShader != null)
+        if (LODManager.Instance != null)
         {
-            // We create a UNIQUE instance to hold the individual PVRTC texture
-            replacementMaterial = new Material(LODManager.Instance.refShader);
-            replacementMaterial.mainTexture = originalTexture;
-            replacementMaterial.name = "LOD_" + gameObject.name;
+            // Reduced variant of original (normalmap OFF) - shared cached
+            reducedOriginalMaterial = LODManager.Instance.GetOrCreateReducedOriginalMaterial(originalMaterial);
+
+            // Grab original tiling/offset for _MainTex, and bake into replacement material cache key
+            Vector2 tiling = Vector2.one;
+            Vector2 offset = Vector2.zero;
+            float cutoff = 0.5f;
+
+            if (originalMaterial != null)
+            {
+                tiling = originalMaterial.GetTextureScale("_MainTex");
+                offset = originalMaterial.GetTextureOffset("_MainTex");
+
+                if (originalMaterial.HasProperty("_Cutoff"))
+                    cutoff = originalMaterial.GetFloat("_Cutoff");
+            }
+
+            // VertexOnly replacement material - shared cached
+            // Rules:
+            //  - leavesOn = isFoliage
+            //  - alphaOn = ON
+            //  - ambientOn = NEVER ON for VertexOnly
+            replacementMaterial = LODManager.Instance.GetOrCreateReplacementMaterial(
+                originalTexture,
+                originalSecondTexture,
+                tiling,
+                offset,
+                cutoff,
+                true,       // alphaOn
+                isFoliage,  // leavesOn
+                false       // ambientOn (forced off)
+            );
         }
 
-        LODManager.Instance.Register(this);
+        CacheSizeAdjustedThresholds();
+
+        if (LODManager.Instance != null)
+            LODManager.Instance.Register(this);
     }
 
-    // This function is called from the General (LODManager)
+    // PUBLIC: called by manager button
+    public void RebuildThresholdCache()
+    {
+        if (thisRenderer == null)
+            thisRenderer = GetComponent<Renderer>();
+
+        if (thisRenderer == null) return;
+
+        CacheSizeAdjustedThresholds();
+    }
+
+    private void CacheSizeAdjustedThresholds()
+    {
+        // Fallback defaults if manager missing
+        float baseFull = 4f;
+        float baseReduced = 5f;
+        float baseVertex = 7f;
+
+        if (LODManager.Instance != null)
+        {
+            baseFull = LODManager.Instance.fullDistance;
+            baseReduced = LODManager.Instance.reducedDistance;
+            baseVertex = LODManager.Instance.vertexOnlyDistance;
+        }
+
+        // Largest horizontal bound (world-space AABB)
+        Bounds b = thisRenderer.bounds;
+        float halfHorizontal = 0.5f * Mathf.Max(b.size.x, b.size.z);
+
+        float full = baseFull + halfHorizontal;
+        float reduced = baseReduced + halfHorizontal;
+        float vertex = baseVertex + halfHorizontal;
+
+        tFullSqr = full * full;
+        tReducedSqr = reduced * reduced;
+        tVertexOnlySqr = vertex * vertex;
+    }
+
+    // Called from LODManager
     public void UpdateLOD(float currentDistSqr, float farClipSqr)
     {
         if (!enableShaderLOD) return;
 
         LODState newState;
 
-        // Threshold calculation (without square roots, very fast)
-        if (currentDistSqr <= LOD_DistanceSqr[0])
+        if (currentDistSqr <= tFullSqr)
             newState = LODState.Full;
-        else if (currentDistSqr <= LOD_DistanceSqr[1])
+        else if (currentDistSqr <= tReducedSqr)
             newState = LODState.Reduced;
-        else if (currentDistSqr <= LOD_DistanceSqr[2])
+        else if (currentDistSqr <= tVertexOnlySqr)
             newState = LODState.VertexOnly;
         else
             newState = LODState.Disabled;
 
-        // We change materials ONLY if the state is different from the current one
         if (newState != shaderLOD)
         {
             shaderLOD = newState;
@@ -83,31 +154,24 @@ public class Shader_LOD_Enumerator : MonoBehaviour
         switch (shaderLOD)
         {
             case LODState.Full:
-                // We put back the original individual material
                 thisRenderer.enabled = true;
                 thisRenderer.sharedMaterial = originalMaterial;
-                thisRenderer.sharedMaterial.EnableKeyword("_NORMALMAP");
                 if (shadowCaster) thisRenderer.shadowCastingMode = ShadowCastingMode.On;
                 break;
 
             case LODState.Reduced:
                 thisRenderer.enabled = true;
-                // We keep the original but turn off the Normal Maps to lighten the GPU
-                thisRenderer.sharedMaterial = originalMaterial;
-                thisRenderer.sharedMaterial.DisableKeyword("_NORMALMAP");
+                thisRenderer.sharedMaterial = (reducedOriginalMaterial != null) ? reducedOriginalMaterial : originalMaterial;
                 if (shadowCaster) thisRenderer.shadowCastingMode = ShadowCastingMode.Off;
                 break;
 
             case LODState.VertexOnly:
                 thisRenderer.enabled = true;
-                // We put the light material created especially for this object
                 thisRenderer.sharedMaterial = replacementMaterial;
-                thisRenderer.sharedMaterial.mainTextureScale = originalMaterial.mainTextureScale;
                 if (shadowCaster) thisRenderer.shadowCastingMode = ShadowCastingMode.Off;
                 break;
-            
+
             case LODState.Disabled:
-                // We disable the renderer to stop issuing GC's for this object, CPU/GPU cost will drop to near-zero
                 thisRenderer.enabled = false;
                 if (shadowCaster) thisRenderer.shadowCastingMode = ShadowCastingMode.Off;
                 break;
@@ -116,7 +180,6 @@ public class Shader_LOD_Enumerator : MonoBehaviour
 
     private void OnDestroy()
     {
-        // When the item is removed, it is deleted from the Manager's list.
         if (LODManager.Instance != null)
             LODManager.Instance.Unregister(this);
     }
